@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/4/25 星期四 20:52:22。
+     1>项目“F:\应用程序\opencvceshi\opencvceshi\opencvceshi.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt client.cpp
+         client.cpp
+     1>E:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\应用程序\opencvceshi\opencvceshi\client.cpp(79): warning C4715: “recieveMat”: 不是所有的控件路径都返回值
+       Link:
+         E:\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\应用程序\opencvceshi\x64\Debug\opencvceshi.exe" /INCREMENTAL /NOLOGO E:\opencv\build\x64\vc11\lib\opencv_world300d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\应用程序\opencvceshi\x64\Debug\opencvceshi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\应用程序\opencvceshi\x64\Debug\opencvceshi.lib" /MACHINE:X64 x64\Debug\client.obj
+         opencvceshi.vcxproj -> F:\应用程序\opencvceshi\x64\Debug\opencvceshi.exe
+     1>已完成生成项目“F:\应用程序\opencvceshi\opencvceshi\opencvceshi.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.83
